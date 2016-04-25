@@ -1,15 +1,15 @@
 
 # Distribución de frecuencias relativas
 
-LLamaremos __frecuencia relativa__ $$f_{i}$$ de la modalidad $$M_{i}$$ de la variable $$X$$ al cociente $$f_{i} = n_{i}/n$$, verificándose,
+LLamaremos __frecuencia relativa_ $f_{i}$ de la modalidad $M_{i}$ de la variable $X$ al cociente $f_{i} = n_{i}/n$, verificándose,
 
-$$
+\[
 \sum_{i=1}^{k}f_{i} = f_{1} + f_{2} + \dots + f_{k} = 1
-$$
+\]
 
 __Ejemplo__
 
-En el conjunto de datos [painters](https://rsanchezs.gitbooks.io/statsr/content/chapter1/index.html), la distribución de frecuencias relativas de la variable _School_ es un resumen de la proporción de pintores en cada escuela.
+En el conjunto de datos [painters](#painters), la distribución de frecuencias relativas de la variable _School_ es un resumen de la proporción de pintores en cada escuela.
 
 __Problema__
 

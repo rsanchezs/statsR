@@ -85,7 +85,10 @@ Levels: A B C D E F G H
 
 Para más información en los detalles del conjunto de datos, consultar la documentació R.
 
+```
+help(painters)
 
+```
 
 
 

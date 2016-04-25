@@ -28,7 +28,7 @@ painters$School
 
 Para más información en los detalles del conjunto de datos, consultar la documentació R.
 
-```{r echo=FALSE}
+```
 help(painters)
 
 ```

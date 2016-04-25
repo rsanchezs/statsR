@@ -48,13 +48,15 @@ barplot(school.freq)
 
 Una solución mejorada sería:
 
-```{r}
+```{r school.freq.better}
 
 ##Creamos un vector con colores para cada rectángulo
 colors <- c(2, 3, 4, 5, 6, 7, 8, 9)
 ##Creamos un vector con los nombres de las escuelas
-names <- c("Renaissance", "Mannerist", "Seicento", "Venetian", "Lombard", "Sixteenth Century", "Seventeenth Century", "French")
-barplot(school.freq, col = colors, legend.text = names, main = "Escuelas de pintura")
+names <- c("Renaissance", "Mannerist", "Seicento", "Venetian", 
+           "Lombard", "Sixteenth Century", "Seventeenth Century", 
+           "French")
+barplot(height = school.freq, names.arg = names, col = colors, main = "Escuela de pintores")
 
 
 ```
