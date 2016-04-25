@@ -9,7 +9,7 @@ $$
 
 __Ejemplo__
 
-En el conjunto de datos [painters](#painters), la distribución de frecuencias relativas de la variable _School_ es un resumen de la proporción de pintores en cada escuela.
+En el conjunto de datos [painters](https://rsanchezs.gitbooks.io/statsr/content/chapter1/index.html), la distribución de frecuencias relativas de la variable _School_ es un resumen de la proporción de pintores en cada escuela.
 
 __Problema__
 
