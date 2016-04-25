@@ -1,0 +1,2 @@
+
+# Distribución de frecuencias absolutas

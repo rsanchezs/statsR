@@ -1,0 +1,44 @@
+```{r knitsetup, echo=FALSE, results='hide', warning=FALSE, message=FALSE, cache=FALSE}
+opts_knit$set(base.dir='./', fig.path='', out.format='md')
+opts_chunk$set(prompt=TRUE, comment='', results='markup')
+# See yihui.name/knitr/options for more Knitr options.
+##### Put other setup R code here
+
+
+# end setup chunk
+```
+
+# Distribución de frecuencias absolutas {#fqualitative}
+
+Llamamos __frecuencia absoluta__ $n_{i}$ de la modalidad $M_{i}$ al número de datos que presentan el valor $M_{i}$. Si existen $k$ modalidades posibles, se verificará
+
+\[
+\sum_{i=1}^{k}n_{i} = n_{1} + n_{2} + \dots + n_{k} = n
+\]
+
+siendo $n$ la __frecuencia total__ al número de datos.
+
+__Ejemplo__
+
+En el conjunto de datos [painters](#painters), la distribución de frecuencias absolutas de la variable _School_ es un resumen del número de pintores en cada universidad.
+
+__Problema__
+
+Encuentra la distribución de frecuencias absolutas de las universidades de pintura en el conjunto de datos _painters_.
+
+__Solución__
+
+```{r}
+library(MASS)   #cargamos la líbreria
+school <- painters$School
+school.freq = table(school)
+school.freq
+
+```
+Una solución mejorada es aplicar la función _cbind()_ para mostrar el resultado en un formato de columna.
+
+```{r}
+cbind(school.freq)
+
+```
+

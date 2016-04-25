@@ -1,0 +1,38 @@
+```{r knitsetup, echo=FALSE, results='hide', warning=FALSE, message=FALSE, cache=FALSE}
+opts_knit$set(base.dir='./', fig.path='', out.format='md')
+opts_chunk$set(prompt=TRUE, comment='', results='markup')
+# See yihui.name/knitr/options for more Knitr options.
+##### Put other setup R code here
+
+
+# end setup chunk
+```
+
+# Datos cualitativos {#painters}
+
+Una muestra de datos se denomina __cualitativa__, también conocida como __categórica__, cuando su observación en los individuos no suministra un número, sino la pertenencia a una clase determinada, como por ejemplo el "Sexo" o la "Facultad" en la que se está matriculado.
+
+En el siguiente tutorial se utilizará el paquete __MASS__ y tiene que ser previamente cargado en el espacio de trabajo __R__ para su uso. En esta sección utilizaremos los datos del _data frame_ __painters__ del paquete para ilustrar los ejemplos.
+
+```{r}
+library(MASS) ## carga la libreria
+painters ## visualizamos el contenido del data frame painters
+```
+
+La columna School contiene la información de las universidades de los pintores. Las universidades son denominadas como A, B,.., etc, y la variable School es cualitativa.
+
+```{r}
+painters$School
+
+```
+
+Para más información en los detalles del conjunto de datos, consultar la documentació R.
+
+```{r echo=FALSE}
+help(painters)
+
+```
+
+
+
+
