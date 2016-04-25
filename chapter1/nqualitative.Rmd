@@ -20,11 +20,11 @@ siendo $n$ la __frecuencia total__ al número de datos.
 
 __Ejemplo__
 
-En el conjunto de datos [painters](#painters), la distribución de frecuencias absolutas de la variable _School_ es un resumen del número de pintores en cada universidad.
+En el conjunto de datos [painters](#painters), la distribución de frecuencias absolutas de la variable _School_ es un resumen del número de pintores en cada escuela.
 
 __Problema__
 
-Encuentra la distribución de frecuencias absolutas de las universidades de pintura en el conjunto de datos _painters_.
+Encuentra la distribución de frecuencias absolutas de las escuelas de pintura en el conjunto de datos _painters_.
 
 __Solución__
 

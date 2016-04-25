@@ -42,8 +42,12 @@ Una solución mejorada sería:
 > ##Creamos un vector con colores para cada rectángulo
 > colors <- c(2, 3, 4, 5, 6, 7, 8, 9)
 > ##Creamos un vector con los nombres de las escuelas
-> names.school <- c("Renaissance", "Mannerist", "Seicento", "Venetian", "Lombard", "Sixteenth Century", "Seventeenth Century", "French")
-> barplot(school.freq, col = colors, legend.text = names.school, main = "Escuelas de pintura")
+> names <- c("Renaissance", "Mannerist", "Seicento", "Venetian", 
++            "Lombard", "Sixteenth Century", "Seventeenth Century", 
++            "French")
+> barplot(school.freq, col = colors, 
++         legend.text = names, 
++         main = "Escuelas de pintura")
 ```
 
 ![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png)

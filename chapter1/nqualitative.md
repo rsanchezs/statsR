@@ -2,21 +2,21 @@
 
 # Distribución de frecuencias absolutas {#fqualitative}
 
-Llamamos __frecuencia absoluta__ $$n_{i}$$ de la modalidad $$M_{i}$$ al número de datos que presentan el valor $$M_{i}$$. Si existen $$k$$ modalidades posibles, se verificará 
+Llamamos __frecuencia absoluta__ $n_{i}$ de la modalidad $M_{i}$ al número de datos que presentan el valor $M_{i}$. Si existen $k$ modalidades posibles, se verificará
 
-$$
+\[
 \sum_{i=1}^{k}n_{i} = n_{1} + n_{2} + \dots + n_{k} = n
-$$
+\]
 
-siendo $$n$$ la __frecuencia total__ al número de datos.
+siendo $n$ la __frecuencia total__ al número de datos.
 
 __Ejemplo__
 
-En el conjunto de datos [painters](https://rsanchezs.gitbooks.io/statsr/content/chapter1/index.html), la distribución de frecuencias absolutas de la variable _School_ es un resumen del número de pintores en cada universidad.
+En el conjunto de datos [painters](#painters), la distribución de frecuencias absolutas de la variable _School_ es un resumen del número de pintores en cada escuela.
 
 __Problema__
 
-Encuentra la distribución de frecuencias absolutas de las universidades de pintura en el conjunto de datos _painters_.
+Encuentra la distribución de frecuencias absolutas de las escuelas de pintura en el conjunto de datos _painters_.
 
 __Solución__
 
