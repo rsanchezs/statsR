@@ -12,7 +12,7 @@ siendo $$n$$ la __frecuencia total__ al número de datos.
 
 __Ejemplo__
 
-En el conjunto de datos [painters](#painters), la distribución de frecuencias absolutas de la variable _School_ es un resumen del número de pintores en cada escuela.
+En el conjunto de datos [painters](./README.md), la distribución de frecuencias absolutas de la variable _School_ es un resumen del número de pintores en cada escuela.
 
 __Problema__
 
