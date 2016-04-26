@@ -2,11 +2,7 @@
 
 # Distribución de frecuencias absolutas {#fqualitative}
 
-<<<<<<< HEAD
 Llamamos __frecuencia absoluta__ $n_{i}$ de la modalidad $M_{i}$ al número de datos que presentan el valor $M_{i}$. Si existen $k$ modalidades posibles, se verificará
-=======
-Llamamos __frecuencia absoluta__ $$n_{i}$$ de la modalidad $$M_{i}$$ al número de datos que presentan el valor $$M_{i}$$. Si existen $$k$$ modalidades posibles, se verificará
->>>>>>> 06422a718dca3a3ff402e730f5b796faf0aa127c
 
 \[
 \sum_{i=1}^{k}n_{i} = n_{1} + n_{2} + \dots + n_{k} = n

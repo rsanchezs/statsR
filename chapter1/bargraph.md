@@ -33,7 +33,7 @@ __Respuesta__
 
 El diagrama de barras de la variable _School_ es:
 
-![plot of chunk school.freq](figure/school.freq-1.png)
+![plot of chunk bargraph](figure/bargraph-1.png)
 
 Una solución mejorada sería:
 
@@ -45,17 +45,25 @@ Una solución mejorada sería:
 > names <- c("Renaissance", "Mannerist", "Seicento", "Venetian", 
 +            "Lombard", "Sixteenth Century", "Seventeenth Century", 
 +            "French")
-<<<<<<< HEAD
-> barplot(height = school.freq, names.arg = names, col = colors, main = "Escuela de pintores")
-=======
+> 
 > barplot(school.freq, col = colors, 
 +         legend.text = names, 
 +         main = "Escuelas de pintura")
->>>>>>> 06422a718dca3a3ff402e730f5b796faf0aa127c
 ```
 
-![plot of chunk school.freq.better](figure/school.freq.better-1.png)
+![plot of chunk bargraph.better](figure/bargraph.better-1.png)
 
+Una solución con el paquete [ggplot2](http://ggplot2.org/) podría ser la siguiente:
+
+
+```r
+> require(ggplot2)
+> qplot(school, data = painters, geom = "bar")
+```
+
+![plot of chunk bargraph.ggplot2](figure/bargraph.ggplot2-1.png)
+
+Obsérvese como __ggplot2__ ha contado el número de instancias de cada clase para que nosotros no tengamos que tabular los valores manualmente a diferéncia de como lo hemos hecho anteriormente con la función base _barplot()_.
 
 
 

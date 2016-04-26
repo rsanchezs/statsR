@@ -41,14 +41,14 @@ __Respuesta__
 
 El diagrama de barras de la variable _School_ es:
 
-```{r school.freq, echo=FALSE}
+```{r bargraph, echo=FALSE}
 barplot(school.freq)
 
 ```
 
 Una solución mejorada sería:
 
-```{r school.freq.better}
+```{r bargraph.better}
 
 ##Creamos un vector con colores para cada rectángulo
 colors <- c(2, 3, 4, 5, 6, 7, 8, 9)
@@ -56,17 +56,23 @@ colors <- c(2, 3, 4, 5, 6, 7, 8, 9)
 names <- c("Renaissance", "Mannerist", "Seicento", "Venetian", 
            "Lombard", "Sixteenth Century", "Seventeenth Century", 
            "French")
-<<<<<<< HEAD
-barplot(height = school.freq, names.arg = names, col = colors, main = "Escuela de pintores")
-=======
+
 barplot(school.freq, col = colors, 
         legend.text = names, 
         main = "Escuelas de pintura")
->>>>>>> 06422a718dca3a3ff402e730f5b796faf0aa127c
 
 
 ```
 
+Una solución con el paquete [ggplot2](http://ggplot2.org/) podría ser la siguiente:
+
+```{r bargraph.ggplot2}
+require(ggplot2)
+qplot(school, data = painters, geom = "bar")
+
+```
+
+Obsérvese como __ggplot2__ ha contado el número de instancias de cada clase para que nosotros no tengamos que tabular los valores manualmente a diferéncia de como lo hemos hecho anteriormente con la función base _barplot()_.
 
 
 

@@ -39,13 +39,11 @@ __Respuesta__
 
 El diagrama de sectores de la variable _School_ es:
 
-<<<<<<< HEAD
-![plot of chunk school.freq.piechart](figure/school.freq.piechart-1.png)
-=======
-![plot of chunk school.freq](figure/school.freq-1.png)
->>>>>>> 06422a718dca3a3ff402e730f5b796faf0aa127c
+
+![plot of chunk piechart](figure/piechart-1.png)
 
 Una solución mejorada podría ser la siguiente:
+
 
 
 ```r
@@ -58,24 +56,11 @@ Una solución mejorada podría ser la siguiente:
 > pie(x = school.freq, labels = names, col = colors, main = "Escuelas de pintura")
 ```
 
-<<<<<<< HEAD
-![plot of chunk school.freq.piechart.better](figure/school.freq.piechart.better-1.png)
-Una solución con el paquete [ggplot2](http://ggplot2.org/) podría ser la siguiente:
+![plot of chunk piechart.better](figure/piechart.better-1.png)
 
 
-```r
-> require(ggplot2)
-> qplot(school, data = painters, geom = "bar")
-```
-
-![plot of chunk barchart.ggplot2](figure/barchart.ggplot2-1.png)
-
-Obsérvese como __ggplot2__ ha contado el número de instancias de cada clase para que nosotros no tengamos que tabular los valores manualmente a diferencia de como lo hemos hecho anteriormente con la función base __barchart__. 
-=======
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png)
 
 
->>>>>>> 06422a718dca3a3ff402e730f5b796faf0aa127c
 
 
 

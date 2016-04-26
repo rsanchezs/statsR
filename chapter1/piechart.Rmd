@@ -41,22 +41,17 @@ __Respuesta__
 
 El diagrama de sectores de la variable _School_ es:
 
-<<<<<<< HEAD
-```{r school.freq.piechart, echo=FALSE}
-=======
-```{r school.freq, echo=FALSE}
->>>>>>> 06422a718dca3a3ff402e730f5b796faf0aa127c
+
+```{r piechart, echo=FALSE}
 pie(school.freq)
 
 ```
 
 Una solución mejorada podría ser la siguiente:
 
-<<<<<<< HEAD
-```{r school.freq.piechart.better}
-=======
-```{r}
->>>>>>> 06422a718dca3a3ff402e730f5b796faf0aa127c
+
+```{r piechart.better}
+
 ##Creamos un vector con colores para cada rectángulo
 colors <- c(2, 3, 4, 5, 6, 7, 8, 9)
 ##Creamos un vector con los nombres de las escuelas
@@ -66,20 +61,10 @@ names <- c("Renaissance", "Mannerist", "Seicento", "Venetian",
 pie(x = school.freq, labels = names, col = colors, main = "Escuelas de pintura")
 
 ```
-<<<<<<< HEAD
-Una solución con el paquete [ggplot2](http://ggplot2.org/) podría ser la siguiente:
-
-```{r barchart.ggplot2}
-require(ggplot2)
-qplot(school, data = painters, geom = "bar")
-
-```
-
-Obsérvese como __ggplot2__ ha contado el número de instancias de cada clase para que nosotros no tengamos que tabular los valores manualmente a diferencia de como lo hemos hecho anteriormente con la función base __barchart__. 
-=======
 
 
->>>>>>> 06422a718dca3a3ff402e730f5b796faf0aa127c
+
+
 
 
 
