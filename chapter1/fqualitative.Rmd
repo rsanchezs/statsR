@@ -1,23 +1,15 @@
-```{r knitsetup, echo=FALSE, results='hide', warning=FALSE, message=FALSE, cache=FALSE}
-opts_knit$set(base.dir='./', fig.path='', out.format='md')
-opts_chunk$set(prompt=TRUE, comment='', results='markup')
-# See yihui.name/knitr/options for more Knitr options.
-##### Put other setup R code here
 
-
-# end setup chunk
-```
 # Distribución de frecuencias relativas
 
 LLamaremos __frecuencia relativa_ $f_{i}$ de la modalidad $M_{i}$ de la variable $X$ al cociente $f_{i} = n_{i}/n$, verificándose,
 
-\[
+$$
 \sum_{i=1}^{k}f_{i} = f_{1} + f_{2} + \dots + f_{k} = 1
-\]
+$$
 
 __Ejemplo__
 
-En el conjunto de datos [painters](#painters), la distribución de frecuencias relativas de la variable _School_ es un resumen de la proporción de pintores en cada escuela.
+En el conjunto de datos [painters](./README.md), la distribución de frecuencias relativas de la variable _School_ es un resumen de la proporción de pintores en cada escuela.
 
 __Problema__
 

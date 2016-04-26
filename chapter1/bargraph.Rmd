@@ -1,19 +1,11 @@
-```{r knitsetup, echo=FALSE, results='hide', warning=FALSE, message=FALSE, cache=FALSE}
-opts_knit$set(base.dir='./', fig.path='', out.format='md')
-opts_chunk$set(prompt=TRUE, comment='', results='markup')
-# See yihui.name/knitr/options for more Knitr options.
-##### Put other setup R code here
 
-
-# end setup chunk
-```
 # Diagrama de barras
 
 Esta representación gráfica consiste en construir tantos rectángulos como modalidades presente el carácter cualitativo en estudio, todos ellos con base de igual amplitud. La altura se toma igual a la frecuencia absoluta o relativa, consiguiendo de esta manera rectángulos con áreas proporcionales a las frecuencias que se quieren representar.
 
 __Ejemplo__
 
-En el conjunto de datos [painters](#painters), el diagrama de barras de la variable _School_ es una colección de rectángulos verticales que muestran el número de pintores en cada escuela.
+En el conjunto de datos [painters](./README.md), el diagrama de barras de la variable _School_ es una colección de rectángulos verticales que muestran el número de pintores en cada escuela.
 
 __Problema__
 
@@ -21,7 +13,7 @@ Encuentra el diagrama de barras de las escuelas de pintura en el data frame _pai
 
 __Solución__
 
-Primeros encontraremos la [distribución de frecuencias absolutas](#fqualitative) de la variable _School_.
+Primeros encontraremos la [distribución de frecuencias absolutas](./fqualitative.md) de la variable _School_.
 
 ```{r}
 library(MASS)
