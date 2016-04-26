@@ -1,7 +1,8 @@
 {
     "plugins": [
         "-katex",
-        "-mathjax"
+        "-mathjax",
+        "mathjax4us2"
     ],
     "pluginsConfig": {}
 }
