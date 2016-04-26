@@ -13,7 +13,7 @@ Encuentra el diagrama de barras de las escuelas de pintura en el data frame _pai
 
 __Solución__
 
-Primeros encontraremos la [distribución de frecuencias absolutas](#fqualitative) de la variable _School_.
+Primeros encontraremos la [distribución de frecuencias absolutas](./nqualitative.md) de la variable _School_.
 
 
 ```r
