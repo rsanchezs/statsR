@@ -45,7 +45,13 @@ Una solución mejorada sería:
 > names <- c("Renaissance", "Mannerist", "Seicento", "Venetian", 
 +            "Lombard", "Sixteenth Century", "Seventeenth Century", 
 +            "French")
+<<<<<<< HEAD
 > barplot(height = school.freq, names.arg = names, col = colors, main = "Escuela de pintores")
+=======
+> barplot(school.freq, col = colors, 
++         legend.text = names, 
++         main = "Escuelas de pintura")
+>>>>>>> 06422a718dca3a3ff402e730f5b796faf0aa127c
 ```
 
 ![plot of chunk school.freq.better](figure/school.freq.better-1.png)
