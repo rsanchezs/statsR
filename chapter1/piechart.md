@@ -1,7 +1,7 @@
 
 # Diagrama de sectores
 
-La representación gráfica de un __diagrama de sectores__ consiste en dividir un círculo en tantos sectores circulares como modalidades presente el carácter cualitativo asignando un ángulo central a cada sector circular proporcional a la frecuencia absoluta $n_{i}$ consiguiendo de esta manera un sector con área proporcional también a $n_{i}$.
+La representación gráfica de un __diagrama de sectores__ consiste en dividir un círculo en tantos sectores circulares como modalidades presente el carácter cualitativo asignando un ángulo central a cada sector circular proporcional a la frecuencia absoluta $$n_{i}$$ consiguiendo de esta manera un sector con área proporcional también a $$n_{i}$$.
 
 __Ejemplo__
 
