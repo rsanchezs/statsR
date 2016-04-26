@@ -2,7 +2,7 @@
 
 # Distribución de frecuencias absolutas 
 
-Llamamos __frecuencia absoluta__ $$ n_{i} $$ de la modalidad $$M_{i}$$ al número de datos que presentan el valor $$M_{i}$$. Si existen $$k$$ modalidades posibles, se verificará
+Llamamos __frecuencia absoluta__ $n_{i}$ de la modalidad $$M_{i}$$ al número de datos que presentan el valor $$M_{i}$$. Si existen $$k$$ modalidades posibles, se verificará
 
 $$
 \sum_{i=1}^{k}n_{i} = n_{1} + n_{2} + \dots + n_{k} = n
