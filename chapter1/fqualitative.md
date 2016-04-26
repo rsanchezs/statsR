@@ -1,7 +1,7 @@
 
 # Distribución de frecuencias relativas
 
-LLamaremos __frecuencia relativa_ $f_{i}$ de la modalidad $M_{i}$ de la variable $X$ al cociente $f_{i} = n_{i}/n$, verificándose,
+LLamaremos __frecuencia relativa_ $$f_{i}$$ de la modalidad $$M_{i}$$ de la variable $$X$$ al cociente $$f_{i} = n_{i}/n$$, verificándose,
 
 $$
 \sum_{i=1}^{k}f_{i} = f_{1} + f_{2} + \dots + f_{k} = 1
@@ -17,7 +17,7 @@ Encontrar la distribución relativa de frecuencias de las escuelas de pintura en
 
 __Solución__
 
-Primeros aplicaremos la función _table_ para computar la distribución de frecuencias absolutas de la variable _School_.
+Primeros aplicaremos la función ___table()___ para computar la distribución de frecuencias absolutas de la variable _School_.
 
 
 ```r
