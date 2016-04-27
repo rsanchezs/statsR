@@ -9,7 +9,7 @@
 * [Datos cuantitativos](chapter2/README.md)
    * [Distribución de frecuencias absolutas](chapter2/nquantitative.md)
    * [Histograma](chapter2/histogram.md)
-   * [Distribución de frecuencias relativas](chapter2/fquantivative.md)
+   * [Distribución de frecuencias relativas](chapter2/fquantitative.md)
    * [Distribución de frecuencias absolutas acumuladas](chapter2/ncumulativefreq.md)
    * [Polígono de frecuencias acumuladas](chapter2/ncumulativegraph.md)
    * [Distribución de frecuencias relativas acumuladas](chapter2/fcumulative.md)
