@@ -58,12 +58,24 @@ Una solución con el paquete [ggplot2](http://ggplot2.org/) podría ser la sigui
 
 ```r
 require(ggplot2)
+```
+
+```
+## Loading required package: ggplot2
+```
+
+```
+## Want to understand how all the pieces fit together? Buy the
+## ggplot2 book: http://ggplot2.org/book/
+```
+
+```r
 qplot(school, data = painters, geom = "bar")
 ```
 
 ![plot of chunk bargraph.ggplot2](figure/bargraph.ggplot2-1.png)
 
-Obsérvese como __ggplot2__ ha contado el número de instancias de cada clase para que nosotros no tengamos que tabular los valores manualmente a diferéncia de como lo hemos hecho anteriormente con la función base _barplot()_.
+Obsérvese como __ggplot2__ ha contado el número de modalidades $$M_{i}$$ de cada clase para que nosotros no tengamos que tabular los valores manualmente a diferéncia de como lo hemos hecho anteriormente con la función base _barplot()_.
 
 
 
