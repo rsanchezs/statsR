@@ -1,2 +1,66 @@
 
 # Distribución de frecuencias relativas acumuladas
+
+LLamaremos __frecuencia relativa acumulada__ $$F_{i}$$ hasta la modalidad $$M_{i}$$ (valor $$x_{i}$$ o intervalo $$I_{i}$$) al cociente $$F_{i}=N_{i}/n$$, o lo que es lo mismo, a
+
+$$
+{ F }_{ i }=\quad { f }_{ 1 }\quad +\quad \dots \quad +\quad { f }_{ i }\quad =\quad \sum _{ j=1 }^{ i }{ { f }_{ j } } 
+$$
+
+siendo $${ F }_{ k }\quad =\quad \sum _{ j=1 }^{ k }{ { f }_{ j }\quad =\quad 1 }$$.
+
+__Ejemplo__
+
+En el conjunto de datas [faithful](README.md), la distribución de frecuentcias relativas acumuladas de la variable _eruption_ representa la proporción de frecuencias de las erupciones cuyas duraciones son menor que o igual a un conjunto de niveles dado.
+
+__Problema__
+
+Encontrar la distribución de frecuencias acumuladas de las erupciones en _faithful_.
+
+__Solución__
+
+En primer lugar encontramos la [distribución de frecuencias absolutas](nquantitative.md).
+
+
+```r
+duration <- faithful$eruptions
+breaks <- seq(1.5, 5.5, by=0.5)
+duration.cut <- cut(duration,  breaks, by=0.5, right = FALSE)
+duration.freq <- table(duration.cut)
+```
+
+
+A continuación aplicamos la función ___cumsum()___ para computar la distribución de frecuencias absolutas acumuladas.
+
+
+```r
+duration.cumfreq = cumsum(duration.freq)
+```
+
+Por último, encontramos en tamaño de la muestra de _faithful_ con la función ___nrow()___, y dividimos la distribución de frecuencias absolutas por $$n$$. Así pues, la distribución de frecuencias relativas acumuladas es:
+
+
+```r
+duration.cumrelfreq = duration.cumfreq / nrow(faithful)
+```
+__Respuesta__
+
+La distribución de frecuencias relativas acumuladas de la variable _eruption_ es:
+
+
+```r
+cbind(duration.cumfreq,duration.cumrelfreq)
+```
+
+```
+##         duration.cumfreq duration.cumrelfreq
+## [1.5,2)               51           0.1875000
+## [2,2.5)               92           0.3382353
+## [2.5,3)               97           0.3566176
+## [3,3.5)              104           0.3823529
+## [3.5,4)              134           0.4926471
+## [4,4.5)              207           0.7610294
+## [4.5,5)              268           0.9852941
+## [5,5.5)              272           1.0000000
+```
+

@@ -9,7 +9,7 @@ En el siguiente tutorial se utilizará el paquete __MASS__ y tiene que ser previ
 
 ```r
 library(MASS) ## carga la libreria
-head(painters) ## visualizamos las primeras observaciones
+painters ## visualizamos el contenido del data frame painters
 ```
 
 ```

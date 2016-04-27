@@ -17,7 +17,7 @@ Utilizaremos la función ___hist()___ para producir el histograma de la variable
 
 ```
 duration <- faithful$eruptions
-hist(duratin, right = FALSE)
+hist(duration, right = FALSE)
 
 ```
 
@@ -27,7 +27,7 @@ El histograma de las erupciones es:
 
 ```{r histogram}
 duration <- faithful$eruptions
-hist(duratin, right = FALSE)
+hist(duration, right = FALSE)
 
 ```
 

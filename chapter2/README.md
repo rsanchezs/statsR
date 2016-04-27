@@ -1,10 +1,10 @@
 # Datos cuantitativos
 
-Los __datos cuantitativos__, conocidos también como datos __continuos__, son aquellos caracteres tales que su observación en un individuo determinado proporciona un valor numérico como medida asociada. A diferéncia de los [datos cualitativos](./chapter1/README.md), cuyos valores pertenecen a clases predefinidas sin que podamos realizar operaciones aritméticas en los mismos.
+Los __datos cuantitativos__, conocidos también como datos __continuos__, son aquellos caracteres tales que su observación en un individuo determinado proporciona un valor numérico como medida asociada. A diferéncia de los [datos cualitativos](/chapter1/README.md), cuyos valores pertenecen a clases predefinidas sin que podamos realizar operaciones aritméticas en los mismos.
 
 En este capítulo mostraremos como aplicar algunas de las herramientas __R__ para el análisis de datos cuantitativos con una serie de ejemplos.
 
-El tutorial en esta sección esta basado en data frame denominado __faithful__. Este data frame consiste en una colección de observaciones del géiser Old Faithful en el Parque Nacional Yellowstone de Estados Unidos. A continuación mostramos una vista priliminar mediante la función _head()_
+El tutorial en esta sección esta basado en data frame denominado __faithful__. Este data frame consiste en una colección de observaciones del géiser Old Faithful en el Parque Nacional Yellowstone de Estados Unidos. A continuación mostramos una vista preliminar mediante la función _head()_
 
 ```{r}
 library(MASS)
