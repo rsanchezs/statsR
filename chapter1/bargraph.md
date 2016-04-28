@@ -58,18 +58,6 @@ Una solución con el paquete [ggplot2](http://ggplot2.org/) podría ser la sigui
 
 ```r
 require(ggplot2)
-```
-
-```
-## Loading required package: ggplot2
-```
-
-```
-## Want to understand how all the pieces fit together? Buy the
-## ggplot2 book: http://ggplot2.org/book/
-```
-
-```r
 qplot(school, data = painters, geom = "bar")
 ```
 
