@@ -17,7 +17,11 @@ Utilizaremos la función ___hist()___ para producir el histograma de la variable
 
 ```
 duration <- faithful$eruptions
+<<<<<<< HEAD
 hist(duration, right = FALSE)
+=======
+hist(duratin, right = FALSE)
+>>>>>>> a0d8930379e4268ca0c7988e4873f4e076ba7207
 
 ```
 
@@ -28,10 +32,19 @@ El histograma de las erupciones es:
 
 ```r
 duration <- faithful$eruptions
+<<<<<<< HEAD
 hist(duration, right = FALSE)
 ```
 
 ![plot of chunk histogram](figure/histogram-1.png)
+=======
+hist(duratin, right = FALSE)
+```
+
+```
+## Error in hist(duratin, right = FALSE): object 'duratin' not found
+```
+>>>>>>> a0d8930379e4268ca0c7988e4873f4e076ba7207
 
 
 __Solución mejorada__

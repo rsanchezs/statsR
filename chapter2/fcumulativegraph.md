@@ -1,7 +1,11 @@
 
 # Polígono de frecuencias relativas acumuladas
 
+<<<<<<< HEAD
 Un __polígono de frecuencias relativas acumuladas__ de una variable cuantitativa es una representación gráfica de una curva representando la distribución.
+=======
+Un __polígono de frecuencias relativas acumuladas_ de una variable cuantitativa es una representación gráfica de una curva representadndo la distribución.
+>>>>>>> a0d8930379e4268ca0c7988e4873f4e076ba7207
 
 __Ejemplo__
 
