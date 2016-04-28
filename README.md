@@ -5,5 +5,10 @@ Estos apuntes son una introducción a los principales conceptos de la Estadísti
 
 Para el estudio de estas tres partes utilizaremos el _Paquete Estadístico R_. Se trata de un paquete gratuito hoy en dia ampliamente utilizado y que es idóneo en la ejecución de los Métodos Estadísticos.
 
-#### Rubén Sánchez Sancho
-####rsanchezs@uoc.edu
+
+
+
+###  Rubén Sánchez Sancho
+
+<a href="mailto:webmaster@example.com">rsanchezs@live.com</a>
+
