@@ -1,2 +1,31 @@
 
 # Recorrido
+
+Si $$x_{max}$$ (también representado por $$x_{n}$$) es el dato mayor, o la última marca de clase si es que los datos vienen agrupados en intervalos, y $$x_{min}$$ (ó $$x_{1}$$) el dato menor, o la primera marca de clase, llamaremos __Recorrido__ a
+
+$$
+R = x_{max} - x{min}
+$$
+
+__Problema__
+
+Encuentra el recorrido de la duración en las erupciones en el conjunto de datos [faithful](../chapter2/nquantitative.md).
+
+__Solución__
+
+Aplicaremos las funciones __max()__ y __min()__ para computar el número más grande y más pequeño en los valores de la variable _eruption_, entonces realizaremos la diferencia.
+
+
+```r
+> duration <- faithful$eruptions
+> range <- max(duration) - min(duration)
+> range
+```
+
+```
+[1] 3.5
+```
+
+__Respuesta__
+
+El recorrido la variable _eruption_ es de __3.5__ minutos.
