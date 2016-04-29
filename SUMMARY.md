@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [Prefacio](README.md)
 * [Datos cualitativos](chapter1/README.md)
    * [Distribución de frecuencias absolutas](chapter1/nqualitative.md)
    * [Distribución de frecuencias relativas](chapter1/fqualitative.md)
