@@ -47,11 +47,20 @@ plot(x = duration, y = waiting,
 
 A continuación para encontrar la recta de mínimos cuadradaos para generar un modelo de regresión lineal de las dos variables podemos utilizar la función __lm()__ y posterioremente añadirlo al diagrama de dispersión mediante la función __abline()__.
 
-```{r}
+```{r linealmodelregression, echo=FALSE}
+duration <- faithful$eruptions
+waiting <- faithful$waiting
+plot(x = duration, y = waiting,
+     xlab = "Duración erupciones",
+     ylab = "Tiempo de espera")
+
 abline(lm(waiting ~ duration))
 
 ```
-
+ 
+```
+abline(lm(waiting ~ duration))
+```
 
 
 

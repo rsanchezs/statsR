@@ -48,15 +48,11 @@ plot(x = duration, y = waiting,
 
 A continuación para encontrar la recta de mínimos cuadradaos para generar un modelo de regresión lineal de las dos variables podemos utilizar la función __lm()__ y posterioremente añadirlo al diagrama de dispersión mediante la función __abline()__.
 
-
-```r
+![plot of chunk linealmodelregression](figure/linealmodelregression-1.png)
+ 
+```
 abline(lm(waiting ~ duration))
 ```
-
-```
-## Error in int_abline(a = a, b = b, h = h, v = v, untf = untf, ...): plot.new has not been called yet
-```
-
 
 
 
