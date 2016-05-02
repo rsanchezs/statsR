@@ -3,11 +3,14 @@
 
 La __mediana__ es una medida de posición, la cual se define como aquel valor de la variable tal que, supuestos ordenados los valores de ésta en orden creciente, la mitad son menores o iguales y la otra mitad mayores o iguales. Así, si en la siguiente distribución de frecuencias,
 
-             | $x_{i}$  | $n_{i}$   | $N_{i}$  |
-             |:-------: | :-------: | :-------:|
-             |    0     |     3     |     3    |
-             |    1     |     2     |     7    |
-             |    2     |     2     |     7    |
+            
+             
+  | $$x_{i}$$  | $$n_{i}$$  | $$N_{i}$$ |
+| :--: | :--: | :--: |
+| 0 | 3 | 3|
+| 1 | 3 | 7 |
+| 2 | 3 | 7 |
+
 
 ordenamos los valores en orden creciente,
 
