@@ -1,7 +1,7 @@
 {
     "plugins": [
         "mathjax",
-        "github-buttons"
+        "-github-buttons"
     ],
     "pluginsConfig": {
         "mathjax": {
