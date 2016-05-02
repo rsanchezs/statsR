@@ -58,13 +58,6 @@ Una solución con el paquete [ggplot2](http://ggplot2.org/) podría ser la sigui
 
 ```r
 require(ggplot2)
-```
-
-```
-## Loading required package: ggplot2
-```
-
-```r
 qplot(school, data = painters, geom = "bar")
 ```
 

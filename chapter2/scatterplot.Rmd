@@ -1,7 +1,7 @@
 
 # Diagrama de dispersión y recta de mínimos cuadrados
 
-La representación gráfica, denominada __diagrama de dispersión__ o _nube de puntos_, se hace utilizando un sistema de ejes de coordenadas de dos dimensiones representando cada dato $(x_{i}, y_{j})$ en un punto de coordenadas $(x_{i}, y_{j})$.
+La representación gráfica, denominada __diagrama de dispersión__ o _nube de puntos_, se hace utilizando un sistema de ejes de coordenadas de dos dimensiones representando cada dato $$(x_{i}, y_{j})$$ en un punto de coordenadas $$(x_{i}, y_{j})$$.
 
 # Ejemplo
 
