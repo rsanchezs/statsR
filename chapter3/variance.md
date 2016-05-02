@@ -7,6 +7,8 @@ $$
 { s }^{ 2 }=\frac { 1 }{ n } \sum _{ i=1 }^{ k }{ ({ x }_{ i }-a)^{ 2 } } { n }_{ i }=\frac { 1 }{ n } \sum _{ i=1 }^{ k }{ { x }_{ i }^{ 2 }{ n }_{ i }-{ a }^{ 2 } }=\frac { 1 }{ n-1 } \sum _{ i=1 }^{ k }{ { (x }_{ i }-{ a })^{ 2 } } 
 $$
 
+dónde $$a$$ es la __media__.
+
 
 # Problema
 

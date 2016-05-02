@@ -1,7 +1,7 @@
 # Datos cuantitativos
 
 
-Los __datos cuantitativos__, conocidos también como datos __continuos__, son aquellos caracteres tales que su observación en un individuo determinado proporciona un valor numérico como medida asociada. A diferéncia de los [datos cualitativos](/chapter1/README.md), cuyos valores pertenecen a clases predefinidas sin que podamos realizar operaciones aritméticas en los mismos.
+Los __datos cuantitativos__, conocidos también como datos __continuos__, son aquellos caracteres tales que su observación en un individuo determinado proporciona un valor numérico como medida asociada. A diferéncia de los [datos cualitativos](../chapter1/README.md), cuyos valores pertenecen a clases predefinidas sin que podamos realizar operaciones aritméticas en los mismos.
 
 Los __datos cuantitativos__, conocidos también como datos __continuos__, son aquellos caracteres tales que su observación en un individuo determinado proporciona un valor numérico como medida asociada. A diferéncia de los [datos cualitativos](../chapter1/README.md), cuyos valores pertenecen a clases predefinidas sin que podamos realizar operaciones aritméticas en los mismos.
 

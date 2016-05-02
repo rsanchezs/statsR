@@ -19,7 +19,7 @@ La idea de __cuartil__ se debe al interés de dividir los datos ordenados en cua
 
 __Problema__
 
-Encuentra los quartiles de la duración en las erupciones en el conjunto de datos [faithful](../chapter2/nquantitative.md).
+Encuentra los quartiles de la duración en las erupciones en el conjunto de datos [faithful](../chapter2/README.md).
 
 __Solución__
 

@@ -8,7 +8,7 @@ En el siguiente tutorial se utilizará el paquete __MASS__ y tiene que ser previ
 
 ```{r}
 library(MASS) ## carga la libreria
-painters ## visualizamos el contenido del data frame painters
+head(painters) ## visualizamos el contenido del data frame painters
 ```
 
 La columna School contiene la información de las universidades de los pintores. Las universidades son denominadas como A, B,.., etc, y la variable School es cualitativa.

@@ -17,7 +17,7 @@ $$
 
 __Problema__
 
-Encuentra el recorrido de la duración en las erupciones en el conjunto de datos [faithful](../chapter2/nquantitative.md).
+Encuentra el recorrido de la duración en las erupciones en el conjunto de datos [faithful](../chapter2/README.md).
 
 __Solución__
 

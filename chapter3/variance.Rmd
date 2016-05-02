@@ -18,7 +18,7 @@ $$
 
 # Problema
 
-Encontrar la varianza de la variable _eruption_ en el conjunto de datos [faithful](../chapter2/nquantitative.md).
+Encontrar la varianza de la variable _eruption_ en el conjunto de datos [faithful](../chapter2/README.md).
 
 # Solución
 

@@ -13,7 +13,7 @@ El __diagrama de cajas__ de las observaciones de una variable es una representac
 
 __Problema__
 
-Encuentra el diagrama de cajas de la variable _eruption_ en el conjunto de datos [faithful](../chapter2/nquantitative.md).
+Encuentra el diagrama de cajas de la variable _eruption_ en el conjunto de datos [faithful](../chapter2/README.md).
 
 __Solución__
 
