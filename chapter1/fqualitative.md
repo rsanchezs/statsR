@@ -1,7 +1,7 @@
 
 # Distribución de frecuencias relativas
 
-LLamaremos __frecuencia relativa_ $$f_{i}$$ de la modalidad $$M_{i}$$ de la variable $$X$$ al cociente $$f_{i} = n_{i}/n$$, verificándose,
+LLamaremos __frecuencia relativa__ $$f_{i}$$ de la modalidad $$M_{i}$$ de la variable $$X$$ al cociente $$f_{i} = n_{i}/n$$, verificándose,
 
 $$
 \sum_{i=1}^{k}f_{i} = f_{1} + f_{2} + \dots + f_{k} = 1
