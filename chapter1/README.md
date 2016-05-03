@@ -1,6 +1,6 @@
 
 
-# Datos cualitativos {#painters}
+# Datos cualitativos 
 
 Una muestra de datos se denomina __cualitativa__, también conocida como __categórica__, cuando su observación en los individuos no suministra un número, sino la pertenencia a una clase determinada, como por ejemplo el "Sexo" o la "Facultad" en la que se está matriculado.
 
