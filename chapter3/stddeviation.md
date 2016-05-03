@@ -5,7 +5,7 @@ La __desviación típica__ de la observación de una variable es la raiz cuadrad
 
 # Problema
 
-Encuentra la _desviación típica_ de la variable _eruption_ en el conjunto de datos [faithful](../chapter2/nquantitative.md).
+Encuentra la _desviación típica_ de la variable _eruption_ en el conjunto de datos [faithful](../chapter2/README.md).
 
 # Solución
 

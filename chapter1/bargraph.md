@@ -13,7 +13,7 @@ Encuentra el diagrama de barras de las escuelas de pintura en el data frame _pai
 
 __Solución__
 
-Primeros encontraremos la [distribución de frecuencias absolutas](./fqualitative.md) de la variable _School_.
+Primeros encontraremos la [distribución de frecuencias absolutas](./nqualitative.md) de la variable _School_.
 
 
 ```r
@@ -58,6 +58,13 @@ Una solución con el paquete [ggplot2](http://ggplot2.org/) podría ser la sigui
 
 ```r
 require(ggplot2)
+```
+
+```
+## Loading required package: ggplot2
+```
+
+```r
 qplot(school, data = painters, geom = "bar")
 ```
 

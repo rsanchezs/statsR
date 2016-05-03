@@ -1,13 +1,13 @@
 # Summary
 
 * [Prefacio](README.md)
-***
+---
 * [Datos cualitativos](chapter1/README.md)
    * [Distribución de frecuencias absolutas](chapter1/nqualitative.md)
    * [Distribución de frecuencias relativas](chapter1/fqualitative.md)
    * [Diagrama de barras](chapter1/bargraph.md)
    * [Diagrama de sectores](chapter1/piechart.md)
-***
+---
 * [Datos cuantitativos](chapter2/README.md)
    * [Distribución de frecuencias absolutas](chapter2/nquantitative.md)
    * [Histograma](chapter2/histogram.md)
@@ -18,7 +18,7 @@
    * [Polígono de frecuencias relativas acumuladas](chapter2/fcumulativegraph.md)
    * [Diagrama de tallo y hojas](chapter2/stemleafplot.md)
    * [Diagrama de dispersión](chapter2/scatterplot.md)
-***
+---
 * [Medidas numericas](chapter3/README.md)
    * [Media](chapter3/mean.md)
    * [Mediana](chapter3/median.md)

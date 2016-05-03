@@ -1,8 +1,3 @@
----
-title: "interquartileRange"
-output: html_document
----
-
 
 
 ## Rango intercuartilico
@@ -17,7 +12,7 @@ Como entre Q1 y Q3 se distribuyen aproximadamente el 50% de las observaciones ce
 
 __Problema__
 
-Encuentra el rango intercuartilico de la duración en la variable _eruption_ en el conjunto de datos [faithful](../chapter2/nquantitative.md).
+Encuentra el rango intercuartilico de la duración en la variable _eruption_ en el conjunto de datos [faithful](../chapter2/README.md).
 
 __Solución__
 

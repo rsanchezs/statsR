@@ -5,7 +5,7 @@ La representación gráfica, denominada __diagrama de dispersión__ o _nube de p
 
 # Ejemplo
 
-En el conjunto de datos [faithful](../chapter2/nquantitative.md), emparejamos el par de valores de _eruption_ y _duration_ en la misma observación como coordenadas (x, y). Entonces representaremos los puntos en el plano Cartesiano.
+En el conjunto de datos [faithful](README.md), emparejamos el par de valores de _eruption_ y _duration_ en la misma observación como coordenadas (x, y). Entonces representaremos los puntos en el plano Cartesiano.
 
 
 ```r
