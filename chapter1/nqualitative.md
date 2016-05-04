@@ -1,5 +1,5 @@
 
-# Distribución de frecuencias absolutas 
+# Distribución de frecuencias absolutas {#fqualitative}
 
 Llamamos __frecuencia absoluta__ $$n_{i}$$ de la modalidad $$M_{i}$$ al número de datos que presentan el valor $$M_{i}$$. Si existen $$k$$ modalidades posibles, se verificará
 
