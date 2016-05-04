@@ -51,4 +51,6 @@ cbind(school.freq)
 ## H           4
 ```
 
+A continuación encontrarás un video relacionado con los temas de esta sección:
 
+{%youtube%}d5hgXahULjI{%endyoutube%}

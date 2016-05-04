@@ -58,13 +58,6 @@ Una solución con el paquete [ggplot2](http://ggplot2.org/) podría ser la sigui
 
 ```r
 require(ggplot2)
-```
-
-```
-## Loading required package: ggplot2
-```
-
-```r
 qplot(school, data = painters, geom = "bar")
 ```
 
@@ -72,7 +65,9 @@ qplot(school, data = painters, geom = "bar")
 
 Obsérvese como __ggplot2__ ha contado el número de modalidades $$M_{i}$$ de cada clase para que nosotros no tengamos que tabular los valores manualmente a diferéncia de como lo hemos hecho anteriormente con la función base _barplot()_.
 
+En este video se explican los conceptos de esta sección:
 
+{%youtube%}fZdoLDfj6e8{%endyoutube%}
 
 
 

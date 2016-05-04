@@ -24,6 +24,8 @@ Para más información en los detalles del conjunto de datos, consultar la docum
 help(painters)
 
 ```
+A continuación encontrarás un video introductoria a la estadística descriptiva:
+
 
 {%youtube%}VswXsizTuk8{%endyoutube%}
 

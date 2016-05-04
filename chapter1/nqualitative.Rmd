@@ -33,4 +33,6 @@ cbind(school.freq)
 
 ```
 
+A continuación encontrarás un video relacionado con los temas de esta sección:
 
+{%youtube%}d5hgXahULjI{%endyoutube%}

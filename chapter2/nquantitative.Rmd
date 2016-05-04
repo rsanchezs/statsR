@@ -61,7 +61,9 @@ cbind(duration.freq)
 
 ```
 
+A continuación podemos visualizar un video que explica el contenido de esta sección:
 
+{%youtube%}JCZOaFYExUM{%endyoutube%}
 
 
 

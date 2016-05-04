@@ -31,3 +31,8 @@ Aplicamos la función __quantile()__ para computar los quartiles.
 __Respuesta__
 
 El primer, segundo y tercer cuartil de la duración en las erupciones son __2.1627, 4.0000 y 4.4543__ minutos respectivamente.
+
+
+A continuación encontrarás un video en el que se explican los contenidos de esta sección:
+
+{%youtube%}7Ww0OTZo8Y{%endyoutube%}
