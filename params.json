@@ -1,0 +1,6 @@
+{
+  "name": "Statsr",
+  "tagline": "Estadística básica con R",
+  "body": "# Estadística básica con R\r\n\r\n![](analise-google-analytics-marketing-digital.jpg)\r\n\r\nEstos apuntes son una introducción a los principales conceptos de la Estadística, término genérico que habitualmente se utiliza para englobar tanto a la __Estadística Descriptiva__, como al __Cálculo de Probabilidades__, como a la __Inferencia Estadística__.\r\n\r\nPara el estudio de estas tres partes utilizaremos el _Paquete Estadístico R_. Se trata de un paquete gratuito hoy en dia ampliamente utilizado y que es idóneo en la ejecución de los Métodos Estadísticos.\r\n\r\nPara descargar el texto en formato pdf, epub y mobi visitar el siguiente [enlace][1]. \r\n\r\n\r\n\r\n\r\n###  Rubén Sánchez Sancho\r\n\r\n<a href=\"mailto:webmaster@example.com\">rsanchezs@live.com</a>\r\n\r\n[1]: https://www.gitbook.com/book/rsanchezs/statsr/details\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
